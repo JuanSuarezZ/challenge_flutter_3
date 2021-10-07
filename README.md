@@ -7,3 +7,8 @@ It was proposed in discord channel [Crazy about Flutter and Dart] (https://disco
 Final Result.
 
 <img src="assets/screenshoot.png" alt="Resultado final taller de flutter basico" title="Resultado final taller de flutter basico" height="500" />
+
+
+## Getting Started
+
+Just git clone and update the proyect with flutter pub get
