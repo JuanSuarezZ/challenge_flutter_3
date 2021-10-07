@@ -6,4 +6,4 @@ It was proposed in discord channel [Crazy about Flutter and Dart] (https://disco
 
 Resultado final.
 
-<img src="assets/final_images/final_result.png" alt="Resultado final taller de flutter basico" title="Resultado final taller de flutter basico" height="500" />
+<img src="assets/screenshoot.png" alt="Resultado final taller de flutter basico" title="Resultado final taller de flutter basico" height="500" />
