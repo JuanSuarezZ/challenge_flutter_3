@@ -1,16 +1,9 @@
-# challenge_flutter3
+<center><h1><b>Design Challenge</b></h1></center>
 
-A new Flutter project.
+This UI desing was created using Flutter and public assets.
+It was proposed in discord channel [Crazy about Flutter and Dart] (https://discord.gg/KkY42c7AGV)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Resultado final.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="assets/final_images/final_result.png" alt="Resultado final taller de flutter basico" title="Resultado final taller de flutter basico" height="500" />
