@@ -1,9 +1,29 @@
 import 'package:challenge_flutter3/widgets/DividerWidget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+const MethodChannel methodChannel = MethodChannel('samples.flutter.io/battery');
+
+Future<void> getBatteryLevel() async {
+  String batteryLevel;
+  try {
+    final int? result = await methodChannel.invokeMethod('getBatteryLevel');
+    batteryLevel = 'Battery level: $result%.';
+    print(batteryLevel);
+  } on PlatformException {
+    batteryLevel = 'Failed to get battery level.';
+    print(batteryLevel);
+  }
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -255,6 +275,7 @@ Widget _botones(BuildContext context) {
         child: ElevatedButton(
             onPressed: () {
               print("holaa");
+              getBatteryLevel();
             },
             child: Text("Edit Profile",
                 style: TextStyle(fontSize: 18, color: Colors.white)),
